@@ -260,7 +260,7 @@ export default class TagsInput extends BaseComponent {
           ]}
           accessibilityLabel={`${label} tag`}
         >
-          {!tag.invalid && shouldMarkTag ? 'Remove' : label}
+          {!tag.invalid && shouldMarkTag ? 'Kaldır' : label}
         </Text>
       </View>
     );
